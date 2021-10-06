@@ -1,5 +1,6 @@
 @outdir=src/io/github/npex42/jlox/backend
 @basename=Stmt
+@imports=java.util.*
 Block      : List<Stmt> statements
 Expression : Expr expression
 Print      : Expr expression
