@@ -1,0 +1,8 @@
+@outdir=src/io/github/npex42/jlox/backend
+@basename=Stmt
+Block      : List<Stmt> statements
+Expression : Expr expression
+Print      : Expr expression
+Var        : Token name, Expr initializer
+If         : Expr condition, Stmt thenBranch, Stmt elseBranch
+While      : Expr condition, Stmt body

@@ -1,0 +1,6 @@
+var a = 0;
+var temp;
+
+for (var a = 0; a < 10000000001; a = a + 1) {
+    print a;
+}

@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jpackage" name="jlox2">
+    <output-path>$PROJECT_DIR$/out/artifacts/jlox2</output-path>
+    <root id="root">
+      <element id="archive" name="jlox.jar">
+        <element id="module-output" name="jlox" />
+      </element>
+    </root>
+  </artifact>
+</component>
